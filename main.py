@@ -3,11 +3,12 @@ import os
 import platform
 import lesson3_1 as l3_1
 import lesson3_2 as l3_2
+import lesson4_1 as l4_1
 
 programs = [
     ['Урок № 3.1 - Бэкенд ветеринарки', l3_1],
     ['Урок № 3.2 - Тест по биологии', l3_2],
-    ['Урок № 3 - Бэкенд ветеринарки', l3_1],
+    ['Урок № 4.1 - Площадь и периметр', l4_1],
 ]
 
 def clear_console():
