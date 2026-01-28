@@ -7,6 +7,7 @@ import lesson4_1 as l4_1
 import lesson4_2 as l4_2
 import lesson5_1 as l5_1
 import lesson5_2 as l5_2
+import lesson5_3 as l5_3
 
 programs = [
     ['Урок № 3.1 - Бэкенд ветеринарки', l3_1],
@@ -15,6 +16,7 @@ programs = [
     ['Урок № 4.2 - Пятизначное число', l4_2],
     ['Урок № 5.1 - Анализ числа', l5_1],
     ['Урок № 5.2 - Анализ слова', l5_2],
+    ['Урок № 5.3 - Анализ инвестиций', l5_3],
 ]
 
 def clear_console():
