@@ -18,6 +18,7 @@ def main():
     age = input("Возраст (в годах): ").strip()
 
     print(f'\nЭто {species} по кличке "{name}". Возраст: {age} года.')
+    input("Нажмите Enter для продолжения...")
 
 if __name__ == "__main__":
     main()
