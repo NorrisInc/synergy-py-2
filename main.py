@@ -16,6 +16,9 @@ import lesson7_2 as l7_2
 import lesson8_1 as l8_1
 import lesson8_2 as l8_2
 import lesson8_3 as l8_3
+import lesson9_1 as l9_1
+import lesson9_2 as l9_2
+import lesson9_3 as l9_3
 
 programs = [
     ['Урок № 3.1 - Бэкенд ветеринарки', l3_1],
@@ -33,6 +36,9 @@ programs = [
     ['Урок № 8.1 - Списки: переворот массива', l8_1],
     ['Урок № 8.2 - Списки: перетасовка массива', l8_2],
     ['Урок № 8.3 - Списки: лодки и рыбаки', l8_3],
+    ['Урок № 9.1 - Множества: разные числа', l9_1],
+    ['Урок № 9.2 - Множества: два списка', l9_2],
+    ['Урок № 9.3 - Множества: поиск дубликатов', l9_3],
 ]
 
 def clear_console():
@@ -61,6 +67,7 @@ def main():
         else:
             print(f"Ошибка: Нет урока с номером {programId}")
         clear_console()
+    print("Выполнение программы завершено успешно")
 
 if __name__ == "__main__":
     main()
